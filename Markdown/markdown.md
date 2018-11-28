@@ -40,6 +40,8 @@
     > 项目管理平台
     
 ## 代码
+#### 单行代码引用``
+#### 多段代码引用 三个反引号
 只要把你的代码块包裹在 “` 之间，你就不需要通过无休止的缩进来标记代码块了。 在围栏式代码块中，你可以指定一个可选的语言标识符，然后我们就可以为它启用语法着色了。 举个例子，这样可以为一段 Ruby 代码着色：
 ```ruby
 require 'redcarpet'
@@ -55,21 +57,26 @@ _Coding，让开发更简单_
 **Coding，让开发更简单**
 __Coding，让开发更简单__
 #### 自动链接
-方括号显示说明，圆括号内显示网址， Markdown 会自动把它转成链接，例如：
-[超强大的云开发平台Coding](http://coding.net)
+方括号显示说明，圆括号内显示网址, Markdown 会自动把它转成链接，例如：
+> [显示文本](链接地址)
+[超强大的云开发平台Coding](http://coding.net) 
 
 ## 表格
 在 Markdown 中，可以制作表格，例如：
+```
 First Header | Second Header | Third Header
 ------------ | ------------- | ------------
 Content Cell | Content Cell  | Content Cell
 Content Cell | Content Cell  | Content Cell
+```
 
 或者也可以让表格两边内容对齐，中间内容居中，例如：
+```
 First Header | Second Header | Third Header
 :----------- | :-----------: | -----------:
 Left         | Center        | Right
 Left         | Center        | Right
+```
 
 ## 分割线
 在 Markdown 中，可以使用 3 个以上『-』符号制作分割线，例如：
@@ -79,6 +86,7 @@ Left         | Center        | Right
 
 ## 图片
 Markdown 使用了类似链接的语法来插入图片, 包含两种形式: 内联 和 引用.
+#### 插入图片 只需要使用![](图片链接地址)
 
 内联图片语法如下:
 ![Alt text](/path/to/img.jpg)
